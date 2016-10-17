@@ -5,9 +5,9 @@
   "main": "build/markdown-to-html.pipe.js",
   "typings": "build/markdown-to-html.pipe.d.ts",
   "scripts": {
-    "test": "npm run lint && tsc && tape tests/*.js",
-    "prepublish": "npm test",
-    "lint": "tslint **/*.ts"
+    "test": "npm run lint && tape tests/*.js",
+    "prepublish": "tsc && npm test",
+    "lint": "tslint src/**/*.ts"
   },
   "repository": {
     "type": "git",
