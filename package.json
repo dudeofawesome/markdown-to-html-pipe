@@ -2,7 +2,8 @@
   "name": "markdown-to-html-pipe",
   "version": "1.0.2",
   "description": "Angular 2 Pipe that transforms a markdown string to HTML",
-  "main": "index.js",
+  "main": "build/markdown-to-html.pipe.js",
+  "typings": "build/markdown-to-html.pipe.d.ts",
   "scripts": {
     "test": "npm run lint && tsc && tape tests/*.js",
     "prepublish": "npm test",
@@ -13,6 +14,7 @@
     "url": "git+https://github.com/conclurer/markdown-to-html-pipe.git"
   },
   "keywords": [
+    "angular",
     "angular2",
     "markdown",
     "pipe",
@@ -25,7 +27,7 @@
   },
   "homepage": "https://github.com/conclurer/markdown-to-html-pipe#readme",
   "devDependencies": {
-    "@angular/core": "^2.0.0-rc.6",
+    "@angular/core": "^2.0.0",
     "@types/es6-shim": "0.0.29",
     "@types/marked": "0.0.27",
     "@types/tape": "^4.2.27",
@@ -37,7 +39,7 @@
     "zone.js": "^0.6.14"
   },
   "peerDependencies": {
-    "@angular/core": "^2.0.0-rc.6"
+    "@angular/core": "^2.0.0"
   },
   "dependencies": {
     "marked": "^0.3.6"

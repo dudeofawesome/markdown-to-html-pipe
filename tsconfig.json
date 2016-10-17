@@ -6,8 +6,12 @@
     "sourceMap": false,
     "experimentalDecorators": true,
     "strictNullChecks": false,
-    "declaration": true
+    "declaration": true,
+    "outDir": "build"
   },
+  "include": [
+    "src/**/*.ts"
+  ],
   "exclude": [
     "node_modules"
   ]

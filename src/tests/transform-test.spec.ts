@@ -2,7 +2,7 @@ import test = require('tape');
 import Test = test.Test;
 import 'zone.js';
 import 'reflect-metadata';
-import {MarkdownToHtmlPipe} from '../index';
+import {MarkdownToHtmlPipe} from '../markdown-to-html.pipe';
 
 test('undefined input', (t: Test) => {
     let mdString: string;
